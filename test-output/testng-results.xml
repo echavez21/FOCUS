@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-29T14:24:14 CST" name="Suite" finished-at="2023-01-29T14:24:25 CST" duration-ms="11139">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T14:24:14 CST" name="TC001" finished-at="2023-01-29T14:24:25 CST" duration-ms="11139">
+      <class name="Testcases.TC001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:14 CST" name="setUp" finished-at="2023-01-29T14:24:16 CST" duration-ms="2081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search(java.lang.String)[pri:1, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:16 CST" name="search" finished-at="2023-01-29T14:24:20 CST" duration-ms="4096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.focusservices.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="northamerica(java.lang.String)[pri:2, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:20 CST" name="northamerica" finished-at="2023-01-29T14:24:24 CST" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[North America]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- northamerica -->
+        <test-method signature="centralamerica()[pri:3, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:24 CST" name="centralamerica" finished-at="2023-01-29T14:24:24 CST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centralamerica -->
+        <test-method signature="asia()[pri:4, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:24 CST" name="asia" finished-at="2023-01-29T14:24:25 CST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asia -->
+        <test-method signature="close()[pri:5, instance:Testcases.TC001@2e005c4b]" started-at="2023-01-29T14:24:25 CST" name="close" finished-at="2023-01-29T14:24:25 CST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testcases.TC001 -->
+    </test> <!-- TC001 -->
+  </suite> <!-- Suite -->
+</testng-results>
